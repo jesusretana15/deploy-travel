@@ -7,7 +7,7 @@ function Card(props) {
         <img src={props.data.img} alt="" className="cardPhoto"/>
         <div className="travelData">
            <div className="locationData">
-           <img src="./src/imgs/location.png" />
+           <img src="deploy-travel/src/imgs/location.png" />
            <p>{props.data.location}</p>
            <a href={props.data.googleMaps}>View on Gooogle Maps</a>
            </div>
