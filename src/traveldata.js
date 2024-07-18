@@ -1,3 +1,5 @@
+import colombia from "./imgs/colombia.jpeg"
+
 export default [
     {
         id:1,
@@ -7,7 +9,7 @@ export default [
         startDate:"2022",
         endDate: "2022",
         description:"Mountain in the center of the city with a church & shrine, popular with pilgrims & tourists.",
-        img:"https://github.com/jesusretana15/deploy-travel/blob/main/src/imgs/colombia.jpeg?raw=true" 
+        img:colombia
     },
     {
         id:2,
