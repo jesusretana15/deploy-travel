@@ -1,4 +1,7 @@
-import colombia from "./imgs/colombia.jpeg"
+import colombia from "./imgs/colombia.jpeg" 
+import london from "./imgs/london.jpeg" 
+import murcielago from "./imgs/murcielago.jpg" 
+import norway from "./imgs/norway.JPG" 
 
 export default [
     {
@@ -19,7 +22,7 @@ export default [
         startDate:"2023",
         endDate: "2023",
         description:"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.",
-        img:"./src/imgs/london.jpeg" 
+        img:london
     },
     {
         id:3,
@@ -29,7 +32,7 @@ export default [
         startDate:"2022",
         endDate: "2022",
         description:"Rocky archipelago also known as the Bat Islands, a diving destination home to rays & bull sharks.",
-        img:"./src/imgs/murcielago.jpg" 
+        img:murcielago
     },
     {
         id:4,
@@ -39,6 +42,6 @@ export default [
         startDate:"2019",
         endDate: "2019",
         description:"Popular mountainous hike to a famed 604-metre cliff with a flat top, offering panoramic views.",
-        img:"./src/imgs/norway.JPG" 
+        img:norway
     },
 ]

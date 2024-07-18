@@ -1,3 +1,4 @@
+import location from "../imgs/location.png"
 
 export default
 function Card(props) {
@@ -7,7 +8,7 @@ function Card(props) {
         <img src={props.data.img} alt="" className="cardPhoto"/>
         <div className="travelData">
            <div className="locationData">
-           <img src="deploy-travel/src/imgs/location.png" />
+           <img src={location} />
            <p>{props.data.location}</p>
            <a href={props.data.googleMaps}>View on Gooogle Maps</a>
            </div>
