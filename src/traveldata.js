@@ -7,7 +7,7 @@ export default [
         startDate:"2022",
         endDate: "2022",
         description:"Mountain in the center of the city with a church & shrine, popular with pilgrims & tourists.",
-        img:"./src/imgs/colombia.jpeg" 
+        img:"https://github.com/jesusretana15/deploy-travel/blob/main/src/imgs/colombia.jpeg?raw=true" 
     },
     {
         id:2,
