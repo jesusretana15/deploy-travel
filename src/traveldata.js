@@ -1,7 +1,7 @@
 import colombia from "./imgs/colombia.jpeg" 
 import london from "./imgs/london.jpeg" 
 import murcielago from "./imgs/murcielago.jpg" 
-import norway from "./imgs/norway.JPG" 
+import norway from "./imgs/norway.jpg" 
 
 export default [
     {
