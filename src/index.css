@@ -1,0 +1,100 @@
+body{
+  background-color: rgb(229, 226, 226);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.header{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(168, 207, 123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row ;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-glove{
+   
+}
+
+.header h1{
+  font-size: 1.5rem;
+   color:white;
+}
+
+.cardPhoto{
+  height: 12rem;
+  width: 9rem;
+  object-fit:cover;
+  border-radius: .70rem;
+}
+
+.travelCard{
+  display: flex;
+  padding: 1.25rem;
+}
+
+.travelData{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.travelData h2{
+  margin: 0;
+  margin-top: .625rem;
+  padding:0;
+  font-size: 1.6rem;
+  
+}
+
+.travelData strong{
+ margin-top: 1rem;
+  
+}
+.travelData p{
+ margin: 0;
+ margin-top: .4rem;
+ text-indent: 0;
+  display: inline;
+  text-align:left;
+  
+}
+.locationData{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+}
+
+.locationData img {
+  height: .9375rem;
+}
+
+.locationData p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.locationData a {
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+}
+
+.locationData a:hover{
+  transform: scale(1.02);
+  color: rgb(141, 139, 139);
+}
